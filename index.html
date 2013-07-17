@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="urf-8">
+	<title>jQuery.nwslider</title>
+	<link rel="stylesheet" href="nwslider.css">
+</head>
+<body>
+<h1>jQuery.nwslider</h1>
+<p>jQuery image slider with vertical thumbnail layout</p>
+<div class="nwslider">
+	<ul class="nw-slides">
+		<li><a href="#"><img src="img/cake.jpg" alt="cake" width="803" height="188"></a></li>
+		<li><a href="#"><img src="img/cookie.jpg" alt="cookie" width="803" height="188"></a></li>
+		<li><a href="#"><img src="img/donut.jpg" alt="donut" width="803" height="188"></a></li>
+		<li><a href="#"><img src="img/chocolate.jpg" alt="chocolate" width="803" height="188"></a></li>
+	</ul>
+	<div class="nw-nav">
+		<ul class="nw-thumbs">
+			<li><a href="#"><img src="img/thumb/cake.jpg" alt="cake" width="133" height="50"></a></li>
+			<li><a href="#"><img src="img/thumb/cookie.jpg" alt="cookie" width="133" height="50"></a></li>
+			<li><a href="#"><img src="img/thumb/donut.jpg" alt="donut" width="133" height="50"></a></li>
+			<li><a href="#"><img src="img/thumb/chocolate.jpg" alt="chocolate" width="133" height="50"></a></li>
+		</ul>
+	</div>
+</div>
+<a href="https://github.com/konitter/jQuery.nwslider"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="jquery.nwslider.min.js"></script>
+<script>
+$(function() {
+	$('.nwslider').nwslider();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+/*!
+ * jQuery.nwslider v0.2
+ *
+ * Copyright 2013, Haruki Konishi
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+.nwslider {
+	position: relative;
+	width: 940px;
+	height: 188px;
+	overflow: hidden;
+}
+
+.nwslider img {
+	vertical-align: middle;
+	border: 0;
+}
+
+.nwslider ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nw-slides {
+	float: left;
+	width: 803px;
+	height: 188px;
+}
+
+.nw-nav {
+	position: relative;
+	float: left;
+	width: 137px;
+	height: 188px;
+	background: #6399C4;
+}
+
+.nw-thumbs {
+	position: absolute;
+	top: 67px;
+	left: 2px;
+}
+
+.nw-thumbs li {
+	padding-top: 2px;
+}
+
+.nw-nav span.nw-prev,
+.nw-nav span.nw-next {
+	position: absolute;
+	left: 2px;
+	width: 133px;
+	height: 67px;
+	background: #6399C4;
+	opacity: .7;
+	filter: alpha(opacity=70);
+	cursor: pointer;
+}
+
+.nw-nav a.nw-prev,
+.nw-nav a.nw-next {
+	position: absolute;
+	left: 2px;
+	display: block;
+	width: 133px;
+	height: 15px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url(img/arrows.gif) no-repeat;
+	cursor: pointer;
+}
+
+.nw-nav .nw-prev { top: 0; }
+.nw-nav .nw-next { bottom: 0; }
+
+.nw-nav a.nw-prev { background-position: 0 0; }
+.nw-nav a.nw-next { background-position: 0 -15px; }
