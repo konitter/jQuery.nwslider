@@ -63,7 +63,7 @@ $('.nwslider').nwslider({
 ## Accessing properties
 
 ```js
-var slider = $('.nwslider').unslider(),
+var slider = $('.nwslider').nwslider(),
 	data = slider.data('nwslider');
 
 //  Play nwslider
